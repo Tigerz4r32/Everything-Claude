@@ -1,0 +1,30 @@
+# This repo is public. Work notes stay on this PC only.
+
+# Claude Code settings for this PC (dev servers, company skill)
+.claude/
+
+# Obsidian's per-device window state (lists recently opened notes)
+memory/LLM/.obsidian/workspace*.json
+
+# Daily notes, project notes and work areas: private
+memory/LLM/00_Inbox/*
+!memory/LLM/00_Inbox/.gitkeep
+memory/LLM/01_Daily/*
+!memory/LLM/01_Daily/.gitkeep
+memory/LLM/02_Projects/
+memory/LLM/05_Archive/
+memory/LLM/03_Areas/*
+!memory/LLM/03_Areas/AI-Workflows/
+memory/LLM/03_Areas/AI-Workflows/*
+# ...except these two lessons, cleaned of company detail for sharing
+!memory/LLM/03_Areas/AI-Workflows/Lessons - Building and Testing the Airtronic Demo.md
+!memory/LLM/03_Areas/AI-Workflows/Lessons - Parallel Build With an AI Manager Session.md
+
+# Never commit keys or secrets
+.env
+.env.*
+.secrets/
+*.key
+*key*.txt
+*.pfx
+*.pem
